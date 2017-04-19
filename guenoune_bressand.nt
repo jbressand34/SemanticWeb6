@@ -1,0 +1,83 @@
+@prefix wss2017: <http://ww2.lirmm.fr/~ulliana/HMIN209Social17.rdf#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+wss2017:jeremy_bressand rdf:type foaf:Person .
+wss2017:jeremy_bressand foaf:mail "jeremy.bressand@etu.umontpellier.fr" .
+wss2017:jeremy_bressand foaf:name "jérémy" .
+wss2017:jeremy_bressand foaf:familyname "bressand" .
+
+wss2017:moez_elgabsi rdf:type foaf:Person .
+wss2017:moez_elgabsi foaf:mail "moez.elgabsi@etu.umontpellier.fr" .
+wss2017:moez_elgabsi foaf:name "moez" .
+wss2017:moez_elgabsi foaf:familyname "elgabsi" .
+
+wss2017:ahmed_sayadi rdf:type foaf:Person .
+wss2017:ahmed_sayadi foaf:mail "ahmed.sayadi@etu.umontpellier.fr" .
+wss2017:ahmed_sayadi foaf:name "ahmed" .
+wss2017:ahmed_sayadi foaf:familyname "sayadi" .
+
+wss2017:rabeb_meddeb rdf:type foaf:Person .
+wss2017:rabeb_meddeb foaf:mail "rabeb.meddeb@etu.umontpellier.fr" .
+wss2017:rabeb_meddeb foaf:name "rabeb" .
+wss2017:rabeb_meddeb foaf:familyname "meddeb" .
+
+wss2017:mehdi_sebih  rdf:type   foaf:Person .
+wss2017:mehdi_sebih  foaf:mail   "mehdi.sebih@etud.umontpellier.fr" .
+wss2017:mehdi_sebih foaf:name   "mehdi" .
+wss2017:mehdi_sebih foaf:familyname   "sebih" .
+
+wss2017:massinissa_atmani  rdf:type   foaf:Person .
+wss2017:massinissa_atmani  foaf:mail   "massinissa.atmani@etud.umontpellier.fr" .
+wss2017:massinissa_atmani foaf:name   "massinissa" .
+wss2017:massinissa_atmani foaf:familyname   "atmani" .
+
+
+wss2017:yasin_mohammed  rdf:type   foaf:Person .
+wss2017:yasin_mohammed  foaf:mail   "yasin.mohammed@etud.umontpellier.fr" .
+wss2017:yasin_mohammed  foaf:name   "yasin" .
+wss2017:yasin_mohammed  foaf:familyname   "mohammed" .
+
+
+wss2017:louise_fresquet  rdf:type   foaf:Person .
+wss2017:louise_fresquet  foaf:mail   "louise.fresquet@etud.umontpellier.fr" .
+wss2017:louise_fresquet  foaf:name   "louise" .
+wss2017:louise_fresquet  foaf:familyname   "fresquet" .
+
+wss2017:hani_guenoune  rdf:type   foaf:Person .
+wss2017:hani_guenoune  foaf:mail   "hani.guenoune@etud.umontpellier.fr" .
+wss2017:hani_guenoune  foaf:name   "hani" .
+wss2017:hani_guenoune  foaf:familyname   "guenoune" .
+
+
+
+wss2017:jeremy_bressand wss2017:socialFriend wss2017:moez_elgabsi . 
+wss2017:jeremy_bressand wss2017:personalFriend wss2017:moez_elgabsi .
+
+wss2017:jeremy_bressand wss2017:socialFriend wss2017:ahmed_sayadi . 
+wss2017:jeremy_bressand wss2017:personalFriend wss2017:ahmed_sayadi .
+
+wss2017:jeremy_bressand wss2017:socialFriend wss2017:rabbeb_meddeb . 
+wss2017:jeremy_bressand wss2017:personalFriend wss2017:rabbeb_meddeb .
+
+wss2017:jeremy_bressand wss2017:socialFriend wss2017:hani_guenoune . 
+wss2017:jeremy_bressand wss2017:personalFriend wss2017:hani_guenoune .
+
+wss2017:jeremy_bressand wss2017:socialFriend wss2017:yasin_mohammed . 
+
+
+wss2017:hani_guenoune wss2017:socialFriend wss2017:moez_elgabsi . 
+wss2017:hani_guenoune wss2017:personalFriend wss2017:moez_elgabsi .
+
+wss2017:hani_guenoune wss2017:socialFriend wss2017:ahmed_sayadi . 
+wss2017:hani_guenoune wss2017:personalFriend wss2017:ahmed_sayadi .
+
+wss2017:hani_guenoune wss2017:socialFriend wss2017:rabbeb_meddeb . 
+
+wss2017:hani_guenoune  wss2017:personalFriend   wss2017:yasin_mohammed .
+wss2017:hani_guenoune  wss2017:personalFriend   wss2017:mehdi_sebih .
+wss2017:hani_guenoune  wss2017:personalFriend   wss2017:massinissa_atmani .
+wss2017:hani_guenoune  wss2017:socialFriend   wss2017:louise_fresquet .
+
